@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F06347F0-9323-7E79-31D7-968231B1FB29" name="Departamento">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 12:32:04 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo_Departamento" id="67BE54FC-E657-1947-B650-40D0CB80CD5D">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 12:32:47 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Departamento" id="FD9D5B8A-24AA-646B-3C3E-96F9D56314E9">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 12:32:47 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E0C191C-F021-A100-780C-56567E23A0B6" name="Departamento_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 12:38:22 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67BE54FC-E657-1947-B650-40D0CB80CD5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DF4D98E-0E21-F639-4E68-FE1153DABCBB" name="Departamento__UN">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 12:39:15 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD9D5B8A-24AA-646B-3C3E-96F9D56314E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

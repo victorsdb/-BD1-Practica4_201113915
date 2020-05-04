@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C962369D-AE44-A468-29C6-5E1BFC99B0FA" name="DPI">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:09:51 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUI" id="ED189411-5C03-A8A9-E7B6-AB1D29F45B0B">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:11:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1E05F0E-D6DD-2ECC-E419-934EC74D2CDD" referredColumn="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</associations>
+</Column>
+<Column name="Fecha_Emisión" id="F954FBA5-4BD5-468D-A73D-79FC4286CB2D">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:11:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Municipio_Residencia" id="E488745D-A62E-5733-36B3-1019C58A4AC5">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:11:05 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC56A60C-9CDB-59E1-B5C3-D7E47A3F5DC3" referredColumn="E6259600-8F6E-446F-82E7-CC552BC2208D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4383B5BA-822F-949C-C703-73E2D30FBCDC" name="DPI_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:04:21 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED189411-5C03-A8A9-E7B6-AB1D29F45B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="554E8768-6332-4269-07DC-75F49DEA847E" name="DPI_Nacimiento_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:04:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED189411-5C03-A8A9-E7B6-AB1D29F45B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5180E8BA-683D-064F-173A-B7221C3D383B" name="DPI_Municipio_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:06:16 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E488745D-A62E-5733-36B3-1019C58A4AC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

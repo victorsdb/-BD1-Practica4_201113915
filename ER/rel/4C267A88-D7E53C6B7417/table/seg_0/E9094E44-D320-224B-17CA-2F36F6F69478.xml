@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9094E44-D320-224B-17CA-2F36F6F69478" name="Licencia">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:24:31 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="No_Licencia" id="F3DFF1A9-80C7-55FA-DFEB-5CA1B1FB8F85">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:30:40 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUI_Persona" id="8E65B303-4993-A420-E9D7-C29E775B825C">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:27:33 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8361836-0D0E-5BCF-9248-66E396490E50" referredColumn="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</associations>
+</Column>
+<Column name="Fecha_Emisión" id="327DC4E3-21F9-4946-173B-7AF13CA66EA3">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:27:33 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Licencia" id="A7304FAA-F4E3-C2C1-1EF2-DB5D290F2E6B">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:27:33 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB94E777-3D14-85F5-6FF7-68E97D485CE0" referredColumn="B9449B3D-44DA-4113-55A2-98BCC0F286AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8635C0B0-D66D-DCE7-27E1-6026CC982597" name="Licencia_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:28:40 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3DFF1A9-80C7-55FA-DFEB-5CA1B1FB8F85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D479585-D9A2-B431-0159-D3E59F6FA3D3" name="Licencia__UN">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:30:40 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E65B303-4993-A420-E9D7-C29E775B825C"/>
+<colUsage columnID="A7304FAA-F4E3-C2C1-1EF2-DB5D290F2E6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6285B41-A809-A9D9-404F-20F624D0C3F1" name="Licencia_Nacimiento_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:51:44 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E65B303-4993-A420-E9D7-C29E775B825C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="481BBB7D-46E7-086A-354F-AEB842FEAE00" name="Licencia_Tipo_Licencia_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:13:41 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7304FAA-F4E3-C2C1-1EF2-DB5D290F2E6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

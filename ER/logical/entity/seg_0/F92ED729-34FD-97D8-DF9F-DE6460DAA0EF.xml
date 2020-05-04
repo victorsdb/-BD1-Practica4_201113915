@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F92ED729-34FD-97D8-DF9F-DE6460DAA0EF" name="Nacimiento">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>04780C05-BDF0-9BCE-76AD-13E648B2D3DC</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUI Persona" id="EA11C626-FC5A-0892-0715-B2CBCB69B64C">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>98ECA61E-509C-8D02-A7C9-C89FA847B2AF</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Acta Nacimiento" id="77EECCE4-766E-A667-6132-A6C2666121A2">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>90F3197D-1ED0-214D-39EF-3794C711DF8F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUI Padre" id="0E465FBE-8593-8A46-FB02-A3C9200FE9DA">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>874C5262-FD59-318C-C157-1D65DDDCB5DD</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EA11C626-FC5A-0892-0715-B2CBCB69B64C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUI Madre" id="13D19EC7-FD1F-12F3-6CE6-A1C08DA7221F">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>E842D294-3694-D26F-CD90-DCF4C67F4750</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EA11C626-FC5A-0892-0715-B2CBCB69B64C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Primer Nombre Persona" id="80DA82A5-D7C0-C260-3B3C-0953975EAB8F">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>F167F801-2463-B3F0-7AD3-21C742B98CE3</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Segundo Nombre Persona" id="2880D7F3-FA28-E021-5F26-6874FC6FE99C">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>96BB26F5-506D-1678-396C-53F6FE184F48</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tercer Nombre Persona" id="83ED2CC4-50AC-6988-8D9F-BEF258C0C28A">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>E5CE01D9-8F3A-5A3E-0FE9-3A5A3AB3EA6C</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Municipio Nacimiento" id="71A94715-82FC-6527-AE1F-2F49C5D12B15">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>53D19440-F188-745A-80E9-2CDFE075EA90</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<referedAttribute>EE76218E-64FA-7D1D-5E40-B631673AC9CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero Persona" id="BF4BD5C4-324E-399F-5374-E4F2DF6D647A">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>C76F3AB6-151E-5D68-C466-EF7259A916E2</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E56AE24-A1A2-3A13-3898-AD1980ABB0DA" name="Persona PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>C0F8DB25-2CE1-746F-8F23-C3820F9B7F27</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA11C626-FC5A-0892-0715-B2CBCB69B64C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="9B2CCD23-54A9-B7E5-41CE-5263B6D5AE90" name="Nacimiento  UN">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>EA99A84D-5A94-6A6C-FD5E-A9DE871204D7</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>EA11C626-FC5A-0892-0715-B2CBCB69B64C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

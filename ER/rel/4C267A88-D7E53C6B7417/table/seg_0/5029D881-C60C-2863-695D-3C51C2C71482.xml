@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5029D881-C60C-2863-695D-3C51C2C71482" name="Anulacion_Licencia">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:46:43 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Anulacion" id="D1E60684-B93D-D043-BA25-C3A98AB37E20">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:47:30 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_Licencia" id="A25EF7A5-F04D-B9DA-7E3E-42C085CAA835">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:47:30 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F493495E-08F4-4441-41E4-99EA4777C924" referredColumn="F3DFF1A9-80C7-55FA-DFEB-5CA1B1FB8F85"/>
+</associations>
+</Column>
+<Column name="Fecha_Anulacion" id="8FCABF97-0662-FB7D-41FE-AA91BE6B6C58">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:47:30 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Motivo" id="D80D5613-63C6-1525-5F6A-DD6CD7DA77FA">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:47:30 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7425E70D-70B6-6B61-2F26-981C3F953805" name="Anulacion_Licencia_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:15:58 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1E60684-B93D-D043-BA25-C3A98AB37E20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="633EEF91-7FB4-7C7F-798D-ACCE91CFD1EE" name="Anulacion_Licencia_Licencia_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:16:11 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A25EF7A5-F04D-B9DA-7E3E-42C085CAA835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

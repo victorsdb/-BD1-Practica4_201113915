@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6D47749-8EE4-996E-38D4-430672E1B7F4" name="Divorcio">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:01:43 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Acta_Divorcio" id="F6DDD549-AB7C-BDA8-881D-E8F23C362660">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:19:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Acta_Matrimonio" id="FCEC225D-2AB0-8369-0097-1C3CDEA76C0D">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:02:17 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7CFBEC4-6C9E-DE29-4E42-4FC49F335D0B" referredColumn="26284F76-61FE-6767-2008-B77921EF25B0"/>
+</associations>
+</Column>
+<Column name="Fecha_Divorcio" id="9DEC89B2-75E0-6F77-1E00-CCEEA2E3C03D">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:02:17 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7827D167-29E1-9FFC-2BF1-393BD85D8066" name="Divorcio_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:02:17 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6DDD549-AB7C-BDA8-881D-E8F23C362660"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="803BD52F-9CA6-990D-DBA2-1D3BC7CC33CC" name="Divorcio__UN">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:32:42 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCEC225D-2AB0-8369-0097-1C3CDEA76C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C593C091-C6BC-653A-ED5A-4D915695DA7F" name="Divorcio_Matrimonio_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:54:14 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCEC225D-2AB0-8369-0097-1C3CDEA76C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

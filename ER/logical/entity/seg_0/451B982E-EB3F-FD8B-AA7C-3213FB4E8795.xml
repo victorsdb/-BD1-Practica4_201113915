@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="451B982E-EB3F-FD8B-AA7C-3213FB4E8795" name="DPI">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>C962369D-AE44-A468-29C6-5E1BFC99B0FA</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUI" id="821B258D-2646-82B0-5E01-F987B298CBEB">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>0FF58137-295A-BC94-A596-4723C064D50B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<referedAttribute>EA11C626-FC5A-0892-0715-B2CBCB69B64C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Emisión" id="EA685DC8-67E8-A291-DD7B-81E91808FC80">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>F954FBA5-4BD5-468D-A73D-79FC4286CB2D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Municipio Residencia" id="78A5A06A-D3CB-34C5-910B-310497FC8D70">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>0072DEBF-D9F5-68F8-AF1B-E1A595D50902</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<referedAttribute>EE76218E-64FA-7D1D-5E40-B631673AC9CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75E3ABD2-99DF-1557-EDA6-F49FC24D84E4" name="DPI PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:24:56 UTC</createdTime>
+<generatorID>4383B5BA-822F-949C-C703-73E2D30FBCDC</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>821B258D-2646-82B0-5E01-F987B298CBEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

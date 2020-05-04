@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F895CCAC-2161-65E9-DF7D-D660CAF1600A" name="Renovacion_Licencia">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:45:29 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Renovacion" id="A59A5093-FC6E-0010-5336-0BE73186C08E">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:46:29 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_Licencia" id="E88870EB-355F-EA06-F796-1A3722B81622">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:46:29 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35EAC60A-B8A4-62D6-6565-2A7C2EBECB58" referredColumn="F3DFF1A9-80C7-55FA-DFEB-5CA1B1FB8F85"/>
+</associations>
+</Column>
+<Column name="Fecha_Renovacion" id="F614DB9D-5AC5-0C81-3C96-7716EB068787">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:46:29 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Licencia" id="707D6B8A-443A-EFFB-E8E8-5305DD2A979A">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:46:29 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41D54017-8F7C-3294-6096-822A491CC5DA" name="Renovacion_Licencia_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:09:34 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A59A5093-FC6E-0010-5336-0BE73186C08E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C2F94CF-6DC3-EB65-CF54-5DE837B6A542" name="Renovacion_Licencia_Licencia_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:16:38 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E88870EB-355F-EA06-F796-1A3722B81622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

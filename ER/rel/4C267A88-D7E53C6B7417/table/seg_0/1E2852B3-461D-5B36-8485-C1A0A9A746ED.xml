@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E2852B3-461D-5B36-8485-C1A0A9A746ED" name="Fallecimiento">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:46:14 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Acta_Defuncion" id="B4E5A840-6F1E-C74D-714C-B65C80409663">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:23:27 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUI_Fallecido" id="F272C431-991D-0EEB-0A46-2161299E5BC9">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:47:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F29ABC07-B03C-DD67-A42B-51044E5387FD" referredColumn="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</associations>
+</Column>
+<Column name="Fecha_Fallecimiento" id="E0D87DE8-9152-E3F2-BAD5-09737E105BDE">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:47:55 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46E9B21C-3EAD-E78A-3CDE-38918B468687" name="Fallecido_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:48:49 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F272C431-991D-0EEB-0A46-2161299E5BC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED9191A9-86DB-ADF0-6264-B32065E07ADF" name="Fallecimiento__UN">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:14:12 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F272C431-991D-0EEB-0A46-2161299E5BC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A39DC87D-3757-7B81-E9AC-1A3EFBF8AFB4" name="Fallecimiento_Nacimiento_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:11:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F272C431-991D-0EEB-0A46-2161299E5BC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

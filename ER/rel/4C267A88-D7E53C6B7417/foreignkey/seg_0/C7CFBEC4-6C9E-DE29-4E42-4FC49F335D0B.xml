@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7CFBEC4-6C9E-DE29-4E42-4FC49F335D0B" containerWithKeyObject="E6D47749-8EE4-996E-38D4-430672E1B7F4" localFKIndex="C593C091-C6BC-653A-ED5A-4D915695DA7F" name="Divorcio_Matrimonio_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:54:14 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<referredTableLongName>Matrimonio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>215DF6E3-7CFF-DFF3-43DC-AC49ECE9B00D</referredTableID>
+<keyObject>BB101057-176A-7C9B-9135-614816E569A4</keyObject>
+<referredKeyID>BB101057-176A-7C9B-9135-614816E569A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Acta_Matrimonio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

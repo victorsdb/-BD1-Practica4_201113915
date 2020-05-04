@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04780C05-BDF0-9BCE-76AD-13E648B2D3DC" name="Nacimiento">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:10:04 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUI_Persona" id="98ECA61E-509C-8D02-A7C9-C89FA847B2AF">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:10:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Acta_Nacimiento" id="90F3197D-1ED0-214D-39EF-3794C711DF8F">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:22:40 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUI_Padre" id="5F4F128B-B2EA-BDA8-DE9D-7A94E196F2CA">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:10:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8C1369B-46D6-7F1B-50D1-CB0E06DFECDE" referredColumn="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</associations>
+</Column>
+<Column name="CUI_Madre" id="EA71944A-225C-1DDE-62A1-0EEA6B0E0A2A">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:10:54 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0F491BE-0A68-5036-F0CA-D60EFC4A5317" referredColumn="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</associations>
+</Column>
+<Column name="Primer_Nombre_Persona" id="F167F801-2463-B3F0-7AD3-21C742B98CE3">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:13:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Segundo_Nombre_Persona" id="96BB26F5-506D-1678-396C-53F6FE184F48">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:13:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tercer_Nombre_Persona" id="E5CE01D9-8F3A-5A3E-0FE9-3A5A3AB3EA6C">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:13:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Municipio_Nacimiento" id="F5F4C481-01E9-68E5-F175-CA0B5839CE1D">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:13:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB863DB6-003C-1772-4491-BC097BF30E60" referredColumn="E6259600-8F6E-446F-82E7-CC552BC2208D"/>
+</associations>
+</Column>
+<Column name="Genero_Persona" id="C76F3AB6-151E-5D68-C466-EF7259A916E2">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:13:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0F8DB25-2CE1-746F-8F23-C3820F9B7F27" name="Persona_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:13:36 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA99A84D-5A94-6A6C-FD5E-A9DE871204D7" name="Nacimiento__UN">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:14:29 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ABD2BC6-B554-C879-A08D-3036584E300D" name="Nacimiento_Nacimiento_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:07:38 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F4F128B-B2EA-BDA8-DE9D-7A94E196F2CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FE46600-5E9A-9E1F-0ED9-54C61644E55C" name="Nacimiento_Nacimiento_FKv2">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:08:01 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA71944A-225C-1DDE-62A1-0EEA6B0E0A2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27D0F22F-DD1D-667E-B15F-177BCD2F959C" name="Nacimiento_Municipio_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:10:58 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5F4C481-01E9-68E5-F175-CA0B5839CE1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

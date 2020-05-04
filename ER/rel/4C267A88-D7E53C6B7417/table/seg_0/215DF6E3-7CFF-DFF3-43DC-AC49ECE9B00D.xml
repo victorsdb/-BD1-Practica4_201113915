@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="215DF6E3-7CFF-DFF3-43DC-AC49ECE9B00D" name="Matrimonio">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:50:52 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Acta_Matrimonio" id="26284F76-61FE-6767-2008-B77921EF25B0">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 15:19:34 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUI_Hombre" id="BD726708-4581-A0FF-96FD-A653BCB25E52">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:52:01 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E07875DB-AFC7-196C-1D67-B73CFAA94899" referredColumn="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</associations>
+</Column>
+<Column name="CUI_Mujer" id="101F39BD-8174-26FB-C532-2ADA1B077B2D">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:52:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB0074E-19E1-494B-03B7-C9802169B60C" referredColumn="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+</associations>
+</Column>
+<Column name="Fecha_Matrimonio" id="6BC2415D-5C0E-6E8E-A746-5DD1DB66AEB4">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:54:30 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB101057-176A-7C9B-9135-614816E569A4" name="Matrimonio_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 13:55:01 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26284F76-61FE-6767-2008-B77921EF25B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1141A92-C5F8-0187-BDD1-6E9C65DD4AC5" name="Matrimonio__UN">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 14:01:07 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD726708-4581-A0FF-96FD-A653BCB25E52"/>
+<colUsage columnID="101F39BD-8174-26FB-C532-2ADA1B077B2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A86182AB-8F9D-185C-96E6-07B51EDBB22A" name="Matrimonio_Nacimiento_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:47:19 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD726708-4581-A0FF-96FD-A653BCB25E52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B2E542A-CEF8-1B39-0E4B-34881C922F16" name="Matrimonio_Nacimiento_FKv2">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 16:47:30 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="101F39BD-8174-26FB-C532-2ADA1B077B2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
