@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Id_Anulacion" id="D1E60684-B93D-D043-BA25-C3A98AB37E20">
-<createdBy>victo</createdBy>
-<createdTime>2020-05-04 15:47:30 UTC</createdTime>
-<ownerDesignName>ER</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="No_Licencia" id="A25EF7A5-F04D-B9DA-7E3E-42C085CAA835">
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:47:30 UTC</createdTime>
@@ -35,7 +25,6 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:47:30 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
@@ -46,12 +35,21 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:47:30 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Fin" id="2B470F9F-DA9D-22FB-916E-6BE5B6DC72F8">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-14 00:34:29 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -64,7 +62,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D1E60684-B93D-D043-BA25-C3A98AB37E20"/>
+<colUsage columnID="A25EF7A5-F04D-B9DA-7E3E-42C085CAA835"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="633EEF91-7FB4-7C7F-798D-ACCE91CFD1EE" name="Anulacion_Licencia_Licencia_FK">

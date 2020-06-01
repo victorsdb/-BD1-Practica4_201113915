@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB3A1691-E95D-B672-D655-33B021D9658A" name="Estado_Civil">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-11 04:01:46 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Estado_Civil" id="749B0A84-6D0F-055C-D2A3-0C31114D7363">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-11 04:03:09 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_Estado_Civil" id="8CDDD2F2-3892-B9C6-2A85-C1696D01DDD2">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-11 04:03:09 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2B2A72B-F65D-82B1-1D3D-30E5A833D570" name="Estado_Civil_PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-11 04:03:16 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="749B0A84-6D0F-055C-D2A3-0C31114D7363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

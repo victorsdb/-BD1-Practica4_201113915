@@ -24,7 +24,7 @@
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -35,6 +35,16 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:27:33 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Cambio" id="017EE445-A6CE-C76E-F69A-E5FC498DC55C">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-13 21:21:49 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -42,7 +52,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Tipo_Licencia" id="A7304FAA-F4E3-C2C1-1EF2-DB5D290F2E6B">
+<Column name="Fecha_Vencimiento" id="4D09CF69-0998-9A5D-F2AC-D4E2BE5E274D">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-13 21:22:50 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Original" id="A7304FAA-F4E3-C2C1-1EF2-DB5D290F2E6B">
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:27:33 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
@@ -53,6 +74,19 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="FB94E777-3D14-85F5-6FF7-68E97D485CE0" referredColumn="B9449B3D-44DA-4113-55A2-98BCC0F286AC"/>
+</associations>
+</Column>
+<Column name="Tipo_Actual" id="5FE25374-B696-6608-60B0-443D2F08F6CF">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-13 21:21:49 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14710CF8-2D20-3520-FA03-A58DB2369DFF" referredColumn="B9449B3D-44DA-4113-55A2-98BCC0F286AC"/>
 </associations>
 </Column>
 </columns>
@@ -97,6 +131,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A7304FAA-F4E3-C2C1-1EF2-DB5D290F2E6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27EA3C14-09B6-56B4-4249-4F2B156DE729" name="Licencia_Tipo_Licencia_FKv2">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-13 21:26:49 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FE25374-B696-6608-60B0-443D2F08F6CF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

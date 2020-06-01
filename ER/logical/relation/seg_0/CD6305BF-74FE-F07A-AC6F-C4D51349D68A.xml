@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Renovacion_Tipo_Licencia_FK" directorySegmentName="seg_0" id="CD6305BF-74FE-F07A-AC6F-C4D51349D68A">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>4FB3D864-C858-0FB2-B79B-6364C7C963E3</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<sourcePk>A55EE643-5AE6-6917-1E37-A533584E1197</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F32BE9E3-F898-9345-185A-1B7073D9C750</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D52EF2FF-7758-6705-3DA1-2824EE6D9B59</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

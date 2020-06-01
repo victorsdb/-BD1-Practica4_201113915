@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DPI_Nacimiento_FK" directorySegmentName="seg_0" id="9FE159ED-C25A-CD11-F6F7-B4C76C843F84">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>C1E05F0E-D6DD-2ECC-E419-934EC74D2CDD</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<sourcePk>D10E6EF8-1731-4DB0-6FAC-D657E7244D83</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60AB9D9C-5EA7-94AA-4BCD-D941AD443FF1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>537E96C7-D724-4FB4-1664-7D45F1C64F1F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

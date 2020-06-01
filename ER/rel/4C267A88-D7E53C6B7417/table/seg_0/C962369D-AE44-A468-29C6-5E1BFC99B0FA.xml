@@ -21,11 +21,10 @@
 <colAssociation fkAssociation="C1E05F0E-D6DD-2ECC-E419-934EC74D2CDD" referredColumn="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
 </associations>
 </Column>
-<Column name="Fecha_Emisión" id="F954FBA5-4BD5-468D-A73D-79FC4286CB2D">
+<Column name="Fecha_Emision" id="F954FBA5-4BD5-468D-A73D-79FC4286CB2D">
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 14:11:05 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
@@ -56,6 +55,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="ED189411-5C03-A8A9-E7B6-AB1D29F45B0B"/>
+<colUsage columnID="F954FBA5-4BD5-468D-A73D-79FC4286CB2D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="554E8768-6332-4269-07DC-75F49DEA847E" name="DPI_Nacimiento_FK">

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7328CCE5-3C0B-DE04-EEB8-3611B933DCC9" name="Licencia">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>E9094E44-D320-224B-17CA-2F36F6F69478</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No Licencia" id="6F09A219-C17F-97C9-55F9-ECA3B1003DAE">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>F3DFF1A9-80C7-55FA-DFEB-5CA1B1FB8F85</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUI Persona" id="ADFEB6D0-4BB8-E32B-68E8-05015D93C710">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>57C6906C-0189-AC29-414F-DF1EAB1371F1</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<referedAttribute>A509DAAC-0DB8-1009-33CD-239A968A6FF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Emisión" id="6FB800BF-D87A-E9A1-9340-F13A9286DE82">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>327DC4E3-21F9-4946-173B-7AF13CA66EA3</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo Original" id="76DDDA1A-CDC1-B8F7-C455-50BFFB1E9922">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>FFF88279-08A3-403F-E974-CF2658B689E2</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<referedAttribute>A92937C1-5F79-9913-8FC4-F411178ADD6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Cambio" id="09358908-5322-7C3F-DB37-8C865469934F">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-14 01:30:27 UTC</createdTime>
+<generatorID>017EE445-A6CE-C76E-F69A-E5FC498DC55C</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Vencimiento" id="6EEE90CE-69FF-346B-E926-DC3B648B3723">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-14 01:30:27 UTC</createdTime>
+<generatorID>4D09CF69-0998-9A5D-F2AC-D4E2BE5E274D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo Actual" id="E05F6880-DA51-6A93-B5CE-17E768BE8480">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-14 01:30:27 UTC</createdTime>
+<generatorID>B8B1F5A0-15D0-24D2-2988-D38D1975ED44</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<referedAttribute>A92937C1-5F79-9913-8FC4-F411178ADD6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64696D15-8313-EB71-C0F6-B9AE1B29DA85" name="Licencia PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>8635C0B0-D66D-DCE7-27E1-6026CC982597</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F09A219-C17F-97C9-55F9-ECA3B1003DAE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B61E6673-D2A5-AF8E-381F-5CB9886E14A2" name="Licencia  UN">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>3D479585-D9A2-B431-0159-D3E59F6FA3D3</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>ADFEB6D0-4BB8-E32B-68E8-05015D93C710</attributeRef>
+<attributeRef>76DDDA1A-CDC1-B8F7-C455-50BFFB1E9922</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

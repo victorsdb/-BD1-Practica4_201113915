@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="537E96C7-D724-4FB4-1664-7D45F1C64F1F" name="DPI">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>C962369D-AE44-A468-29C6-5E1BFC99B0FA</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUI" id="85F186F0-DE92-AB45-695E-115E9FB5B64C">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>9FE159ED-C25A-CD11-F6F7-B4C76C843F84</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<referedAttribute>A509DAAC-0DB8-1009-33CD-239A968A6FF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha Emision" id="C3398872-18BB-5538-424C-14CC7B84D5AA">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>F954FBA5-4BD5-468D-A73D-79FC4286CB2D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Municipio Residencia" id="884BE9ED-C93B-8CF2-62E3-6D13DB61CDD3">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>B5D0F2E9-D7AD-DAE7-C936-00169D9E1749</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<referedAttribute>5DAEAE80-F223-2643-73E0-DCF283CADE32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="266C3544-2707-4698-B17B-EE95481F556F" name="DPI PK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>4383B5BA-822F-949C-C703-73E2D30FBCDC</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85F186F0-DE92-AB45-695E-115E9FB5B64C</attributeRef>
+<attributeRef>C3398872-18BB-5538-424C-14CC7B84D5AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

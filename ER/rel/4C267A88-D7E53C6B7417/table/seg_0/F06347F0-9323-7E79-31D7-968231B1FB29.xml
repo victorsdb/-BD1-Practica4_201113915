@@ -22,7 +22,6 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 12:32:47 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>

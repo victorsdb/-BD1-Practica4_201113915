@@ -24,7 +24,7 @@
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -37,7 +37,7 @@
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -48,7 +48,6 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 13:54:30 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
@@ -66,17 +65,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="26284F76-61FE-6767-2008-B77921EF25B0"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F1141A92-C5F8-0187-BDD1-6E9C65DD4AC5" name="Matrimonio__UN">
-<createdBy>victo</createdBy>
-<createdTime>2020-05-04 14:01:07 UTC</createdTime>
-<ownerDesignName>ER</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="BD726708-4581-A0FF-96FD-A653BCB25E52"/>
-<colUsage columnID="101F39BD-8174-26FB-C532-2ADA1B077B2D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A86182AB-8F9D-185C-96E6-07B51EDBB22A" name="Matrimonio_Nacimiento_FK">

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Divorcio_Matrimonio_FK" directorySegmentName="seg_0" id="1121EC31-4D38-D7BB-95DD-295D12C6A03B">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>C7CFBEC4-6C9E-DE29-4E42-4FC49F335D0B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<sourcePk>DED59F70-320C-8FB0-EB48-EDA9B54965F6</sourcePk>
+<dominantRole>3A69AEA5-683F-1343-F811-29940C8B3B44</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A69AEA5-683F-1343-F811-29940C8B3B44</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BF017553-C956-B7A5-C191-77F5B83D22F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

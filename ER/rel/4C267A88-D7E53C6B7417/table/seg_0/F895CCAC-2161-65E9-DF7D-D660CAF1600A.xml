@@ -8,16 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Id_Renovacion" id="A59A5093-FC6E-0010-5336-0BE73186C08E">
-<createdBy>victo</createdBy>
-<createdTime>2020-05-04 15:46:29 UTC</createdTime>
-<ownerDesignName>ER</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="No_Licencia" id="E88870EB-355F-EA06-F796-1A3722B81622">
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:46:29 UTC</createdTime>
@@ -35,7 +25,6 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:46:29 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
@@ -46,7 +35,19 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:46:29 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FB3D864-C858-0FB2-B79B-6364C7C963E3" referredColumn="B9449B3D-44DA-4113-55A2-98BCC0F286AC"/>
+</associations>
+</Column>
+<Column name="Anios_Renovacion" id="377106B5-0097-8BCF-A3C8-46E76A5653DD">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-08 12:59:01 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -63,10 +64,11 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A59A5093-FC6E-0010-5336-0BE73186C08E"/>
+<colUsage columnID="E88870EB-355F-EA06-F796-1A3722B81622"/>
+<colUsage columnID="F614DB9D-5AC5-0C81-3C96-7716EB068787"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2C2F94CF-6DC3-EB65-CF54-5DE837B6A542" name="Renovacion_Licencia_Licencia_FK">
+<ind_PK_UK id="2C2F94CF-6DC3-EB65-CF54-5DE837B6A542" name="Renovacion_Licencia_FK">
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 17:16:38 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
@@ -74,6 +76,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E88870EB-355F-EA06-F796-1A3722B81622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE7956FC-BE3A-1828-CC08-DC673D7803E7" name="Renovacion_Tipo_Licencia_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 17:36:59 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707D6B8A-443A-EFFB-E8E8-5305DD2A979A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

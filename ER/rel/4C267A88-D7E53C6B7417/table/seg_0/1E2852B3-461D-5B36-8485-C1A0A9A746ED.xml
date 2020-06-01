@@ -12,7 +12,6 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:23:27 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,7 +24,7 @@
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -36,11 +35,22 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 13:47:55 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Motivo" id="9F6EF638-C458-D5FE-B895-2AB976E9663C">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-13 23:24:40 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -53,7 +63,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F272C431-991D-0EEB-0A46-2161299E5BC9"/>
+<colUsage columnID="B4E5A840-6F1E-C74D-714C-B65C80409663"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="ED9191A9-86DB-ADF0-6264-B32065E07ADF" name="Fallecimiento__UN">

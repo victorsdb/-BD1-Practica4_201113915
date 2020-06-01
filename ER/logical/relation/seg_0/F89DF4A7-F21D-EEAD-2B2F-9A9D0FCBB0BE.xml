@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Anulacion_Licencia_Licencia_FK" directorySegmentName="seg_0" id="F89DF4A7-F21D-EEAD-2B2F-9A9D0FCBB0BE">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>F493495E-08F4-4441-41E4-99EA4777C924</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<sourcePk>64696D15-8313-EB71-C0F6-B9AE1B29DA85</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7328CCE5-3C0B-DE04-EEB8-3611B933DCC9</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C132B4CB-ABD9-1287-A04B-52461D8C2316</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

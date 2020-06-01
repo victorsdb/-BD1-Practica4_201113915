@@ -8,7 +8,7 @@
 <referredTableID>04780C05-BDF0-9BCE-76AD-13E648B2D3DC</referredTableID>
 <keyObject>C0F8DB25-2CE1-746F-8F23-C3820F9B7F27</keyObject>
 <referredKeyID>C0F8DB25-2CE1-746F-8F23-C3820F9B7F27</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>CUI_Persona</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

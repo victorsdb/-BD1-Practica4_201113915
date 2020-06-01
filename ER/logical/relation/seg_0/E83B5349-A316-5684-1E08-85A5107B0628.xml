@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nacimiento_Municipio_FK" directorySegmentName="seg_0" id="E83B5349-A316-5684-1E08-85A5107B0628">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-10 23:50:03 UTC</createdTime>
+<generatorID>FB863DB6-003C-1772-4491-BC097BF30E60</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="4C267A88-7104-8FC7-05B0-D7E53C6B7417" value="true"/>
+</engineerTo>
+<sourcePk>7DB3EC8A-5720-BE8D-1CE1-7E27DDDDA5F5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>136ECEA6-4148-6725-EE9D-26DF433C003E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60AB9D9C-5EA7-94AA-4BCD-D941AD443FF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

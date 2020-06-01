@@ -14,7 +14,7 @@
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -22,7 +22,6 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 15:22:40 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -33,9 +32,10 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 13:10:54 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -46,9 +46,10 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 13:10:54 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -59,7 +60,6 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 13:13:28 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -91,6 +91,39 @@
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Primer_Apellido" id="121AA67F-46BB-C255-B828-97D1678CEA57">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-09 20:29:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Segundo_Apellido" id="B81A3C3B-31B8-2958-A1FD-17551B5328CF">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-09 20:29:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Nacimiento" id="6915AA1B-CFE0-04D1-8DDD-F53C469C38C8">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-04 20:14:16 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Municipio_Nacimiento" id="F5F4C481-01E9-68E5-F175-CA0B5839CE1D">
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 13:13:28 UTC</createdTime>
@@ -108,7 +141,6 @@
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 13:13:28 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -116,9 +148,22 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Estado_Civil" id="03C9B21F-0DD1-297B-2364-9DF80DF49411">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-11 04:03:49 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D58749F5-06A6-B1BB-6988-88B9A9F99890" referredColumn="749B0A84-6D0F-055C-D2A3-0C31114D7363"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C0F8DB25-2CE1-746F-8F23-C3820F9B7F27" name="Persona_PK">
+<ind_PK_UK id="C0F8DB25-2CE1-746F-8F23-C3820F9B7F27" name="Nacimiento_PK">
 <createdBy>victo</createdBy>
 <createdTime>2020-05-04 13:13:36 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
@@ -136,7 +181,7 @@
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="98ECA61E-509C-8D02-A7C9-C89FA847B2AF"/>
+<colUsage columnID="90F3197D-1ED0-214D-39EF-3794C711DF8F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8ABD2BC6-B554-C879-A08D-3036584E300D" name="Nacimiento_Nacimiento_FK">
@@ -169,5 +214,23 @@
 <colUsage columnID="F5F4C481-01E9-68E5-F175-CA0B5839CE1D"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="30E60D6F-9177-B3CA-7309-A02BA16607F7" name="Nacimiento_Estado_Civil_FK">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-11 04:04:27 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C9B21F-0DD1-297B-2364-9DF80DF49411"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Nacimiento_CK_1" directorySegmentName="seg_0" id="02710FDD-1378-CAC5-B4BA-5D522BBA72B6">
+<createdBy>victo</createdBy>
+<createdTime>2020-05-11 02:07:34 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<rule><![CDATA[Genero_Persona = 'M' OR Genero_Persona = 'F']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>
